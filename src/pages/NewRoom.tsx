@@ -4,7 +4,7 @@ import { Link, useHistory } from 'react-router-dom';
 import illustrations from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
 import { Button } from '../components/Button';
-import { databsase } from '../services/firebase';
+import { database } from '../services/firebase';
 import { useAuth } from '../hooks/useAuth'
 import '../styles/auth.scss';
 
@@ -20,7 +20,7 @@ export function NewRoom() {
       return;
     }
 
-    const roomRef = databsase.ref('rooms')
+    const roomRef = database.ref('rooms')
 
     const firebaseRoom = await roomRef.push({
       title: newRoom,

@@ -6,7 +6,7 @@ import illustrations from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
 import { Button } from '../components/Button';
 import { useAuth } from '../hooks/useAuth';
-import { databsase } from '../services/firebase';
+import { database } from '../services/firebase';
 import '../styles/auth.scss';
 
 
@@ -29,7 +29,7 @@ export function Home() {
       return;
     }
 
-    const roomRef = await databsase.ref(`rooms/${roomCode}`).get();
+    const roomRef = await database.ref(`rooms/${roomCode}`).get();
 
     if (!roomRef.exists()) {
       alert('Room does not exists.');
