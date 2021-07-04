@@ -1,46 +1,126 @@
-# Getting Started with Create React App
+<h2 align="center">
+    <img alt="Logo" title="#logo" src="public/logo.svg" width="400"/>
+</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    Letmeask | NLW#6
+</h1>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+  <a href="">
+    <img src="https://img.shields.io/github/languages/count/RodrigoSaantos/ignews.svg?color=835afd" alt="languages" >
+  </a>
 
-### `yarn start`
+  <a href="">
+    <img src="https://img.shields.io/github/languages/top/RodrigoSaantos/ignews.svg?color=835afd" alt="languagesTop" >
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="">
+    <img src="https://img.shields.io/github/repo-size/RodrigoSaantos/ignews.svg?color=835afd" alt="repo-size" >
+  </a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <a href="">
+    <img src="https://img.shields.io/github/last-commit/RodrigoSaantos/ignews.svg?color=835afd" alt="last-commit" >
+  </a>
 
-### `yarn test`
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center"> Application developed in the sixth edition of Rocketseat Next Level Week 💻🚀 </p>
 
-### `yarn build`
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#technologies">Technologies</a> •
+ <a href="#usage">Usage</a> •
+ <a href="#contribution">Contribution</a> •
+ <a href="#author">Author</a> •
+ <a href="#demo">Demo</a> •
+ <a href="#license">License</a>
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h1 align="center">
+  <div style="display: flex; flex-direction: row;">
+    <img width="400" style="border-radius: 10px" height="auto" alt="home" title="Home" src="src/assets/home.png" />
+    <img width="400" style="border-radius: 10px" height="auto" alt="create-room" title="Create Room" src="src/assets/create-room.png" />
+  <div>
+  <div style="display: flex; flex-direction: row;">
+    <img width="400" style="border-radius: 10px" height="auto" alt="admin-room" title="Admin Room" src="src/assets/admin-room.png" />
+    <img width="400" style="border-radius: 10px" height="auto" alt="questions" title="Questions" src="src/assets/questions.png" />
+  <div>
+</h1>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h4 align="center">
+	 💬 Letmeask | NLW#6 🗣 question... 💬
+</h4>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2 id="about" > 🎯 About </h2>
 
-### `yarn eject`
+Free Audience Response System for live voting with your audience. Vote over the internet with any browser
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h2 id="technologies"> 🛠 Technologies </h2>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The following tools were used in the construction of the project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [ReactJS](https://reactjs.org)
+- [NodeJS](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com) or Npm
+- [VSCode](https://code.visualstudio.com)
+- [Git Bash](https://gitforwindows.org/)
+- [Firebase](http://firebase.google.com/go/messaging)
+- [SASS](https://sass-lang.com/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<h2 id="usage" > 👷 Usage </h2>
 
-## Learn More
+Required! Install git, node and yarn (or npm).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone Repository
+$ git clone https://github.com/RodrigoSaantos/letmeask.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Go to server folder
+$ cd letmeask
+
+# Install Dependencies
+$ yarn
+# or
+$ npm install
+
+# Run Aplication
+$ yarn start
+# or
+$ npm run start
+
+# Access localhost
+http://localhost:3000
+```
+
+<h2 id="contribution"> 🤝 Contribution </h2>
+
+This project is for study purposes too. All kinds of contributions are very welcome and appreciated!
+
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
+
+<h2 id="author"> 💻 Author </h2>
+
+<img style="border-radius: 50%;" src="https://github.com/RodrigoSaantos.png" width="100px;" alt="Rodrigo Santos"/>
+
+By Rodrigo Santos 👋🏽 Find me:
+
+[![Linkedin Badge](https://img.shields.io/badge/-RodrigoSantos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodrigo-dos-santos-silva-637225156/)](https://www.linkedin.com/in/rodrigosaantos/)
+|
+[![Gmail Badge](https://img.shields.io/badge/-contato.rodrigosaantos@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:contato.rodrigosaantos@gmail.com)](mailto:contato.rodrigosaantos@gmail.com)
+
+<h2 id="demo"> 🎌 Demo </h2>
+
+<h1 align="center">
+  <div style="display: flex; flex-direction: row;">
+    <img width="900" style="border-radius: 10px" height="auto" alt="Demo" title="Demo" src="src/assets/demo.gif" />
+  <div>
+</h1>
+
+<h2 id="license"> 📝 License </h2>
+
+This project is under the MIT license.

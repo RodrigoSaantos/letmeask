@@ -1,5 +1,5 @@
 import { FormEvent, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import logoImg from '../assets/images/logo.svg';
 import { Button } from '../components/Button';
 import { Question } from '../components/Question';
@@ -14,7 +14,7 @@ type RoomParams = {
 }
 
 export function Room() {
-  const { user } = useAuth();
+  const { user, signInWithGoogle } = useAuth();
   const params = useParams<RoomParams>();
   const roomId = params.id;
   const [newQuestion, setNewQuestion] = useState('');
@@ -60,7 +60,9 @@ export function Room() {
     <div id="page-room">
       <header>
         <div className="content">
-          <img src={logoImg} alt="Letmeask" />
+          <Link to="/">
+            <img src={logoImg} alt="Letmeask" />
+          </Link>
           <RoomCode code={roomId} />
         </div>
       </header>
@@ -84,7 +86,7 @@ export function Room() {
                 <span>{user.name}</span>
               </div>
             ) : (
-              <span>Para enviar uma pergunta, <button>faça seu login</button>.</span>
+              <span>Para enviar uma pergunta, <button type="button" onClick={signInWithGoogle}>faça seu login</button>.</span>
             )}
             <Button type="submit" disabled={!user}>Enviar pergunta</Button>
           </div>
